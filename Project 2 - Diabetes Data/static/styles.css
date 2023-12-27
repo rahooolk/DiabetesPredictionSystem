@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Set a background color for the entire body */
+    margin: 0; /* Remove default body margin */
+}
+
+/*.img {
+    min-height: 100vh;
+    background-image: url('/static/images/diabetes_image_1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+}
+*/
+
+.content-container {
+    min-height: 100vh;
+    background-image: url('/static/images/diabetes_image_1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Center along the vertical axis */
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.content-container1 {
+    min-height: 100vh;
+    background-image: url('/static/images/diabetes_image_2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Center along the vertical axis */
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    color: #333; /* Set the color of the h1 text */
+}
+
+form {
+     max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+p.positive {
+    color: #4caf50; /* Green color for positive result */
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* Style for Negative Result */
+p.negative {
+    color: #000; /* Black color for negative result */
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+a {
+    color: #fff; /* Set link color */
+    text-decoration: none; /* Remove underline */
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50; /* Set background color for the link */
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+a:hover {
+    background-color: #45a049; /* Change background color on hover */
+}
